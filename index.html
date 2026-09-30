@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#06111b">
+  <meta name="description" content="Join the HoyoPay Telegram community for updates, offers and member information.">
+  <title>HoyoPay | Join Our Telegram Community</title>
+
+  <!-- Meta Pixel: replace YOUR_PIXEL_ID with your real Pixel ID before publishing.
+  <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+    (window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init','YOUR_PIXEL_ID'); fbq('track','PageView');
+  </script>
+  -->
+  <style>
+    :root{
+      --bg:#03101a;
+      --panel:#071b28;
+      --panel2:#0b2434;
+      --text:#f7fbff;
+      --muted:#a9bdca;
+      --cyan:#18d7ff;
+      --green:#25f0b0;
+      --blue:#229ed9;
+      --gold:#ffd75a;
+      --border:rgba(77,220,255,.22);
+      --shadow:0 18px 60px rgba(0,0,0,.38);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      background:
+        radial-gradient(circle at 80% 5%,rgba(19,222,179,.16),transparent 28%),
+        radial-gradient(circle at 10% 20%,rgba(16,156,255,.16),transparent 30%),
+        var(--bg);
+      color:var(--text);
+      overflow-x:hidden;
+    }
+    a{text-decoration:none;color:inherit}
+    .wrap{width:min(100% - 28px,1040px);margin:auto}
+    .topbar{
+      position:sticky;top:0;z-index:20;
+      backdrop-filter:blur(16px);
+      background:rgba(3,16,26,.78);
+      border-bottom:1px solid rgba(255,255,255,.07);
+    }
+    .nav{height:64px;display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.3px}
+    .brand-mark{
+      width:34px;height:34px;border-radius:11px;
+      background:linear-gradient(135deg,#0de0c2,#1689ff);
+      display:grid;place-items:center;color:#04121d;font-weight:1000;
+      box-shadow:0 0 25px rgba(31,224,196,.28)
+    }
+    .brand span{font-size:20px}
+    .mini-cta{
+      padding:10px 15px;border-radius:999px;
+      border:1px solid rgba(38,230,185,.45);
+      background:rgba(17,227,184,.08);
+      font-weight:800;font-size:13px;
+    }
+
+    .hero{padding:38px 0 22px}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center}
+    .eyebrow{
+      display:inline-flex;align-items:center;gap:8px;
+      padding:7px 11px;border:1px solid var(--border);border-radius:999px;
+      color:#b9fff0;background:rgba(27,235,192,.06);font-size:12px;font-weight:800;
+    }
+    h1{font-size:clamp(42px,7vw,76px);line-height:.94;margin:17px 0 18px;letter-spacing:-3px}
+    h1 .grad{
+      background:linear-gradient(100deg,#fff,#26e8b3 52%,#26c9ff);
+      -webkit-background-clip:text;background-clip:text;color:transparent
+    }
+    .hero p{font-size:18px;line-height:1.55;color:var(--muted);max-width:620px;margin:0}
+    .hero p strong{color:#55e8ff}
+    .offer{
+      margin:24px 0 18px;padding:17px 19px;border-radius:22px;
+      border:1px solid rgba(255,215,90,.35);
+      background:linear-gradient(135deg,rgba(255,215,90,.10),rgba(255,255,255,.035));
+      box-shadow:var(--shadow)
+    }
+    .offer small{display:block;color:#ffe89b;font-weight:800;text-transform:uppercase;letter-spacing:1.3px}
+    .offer b{font-size:38px;line-height:1.05;color:var(--gold)}
+    .offer span{color:#fff;font-weight:800}
+    .cta{
+      display:flex;align-items:center;justify-content:center;gap:10px;
+      width:100%;min-height:58px;padding:14px 20px;border-radius:18px;
+      background:linear-gradient(100deg,#1c9ff0,#21d5ff 48%,#27f0b1);
+      color:#03121c;font-weight:950;font-size:16px;
+      box-shadow:0 12px 38px rgba(22,205,255,.25);
+      transition:transform .18s ease,filter .18s ease;
+    }
+    .cta:hover{transform:translateY(-2px);filter:brightness(1.05)}
+    .subnote{text-align:center;color:#8197a5;font-size:11px;margin-top:10px}
+    .mock{
+      position:relative;display:flex;justify-content:center;
+      min-height:510px;align-items:center
+    }
+    .phone{
+      width:min(84%,340px);padding:9px;border-radius:38px;
+      background:linear-gradient(145deg,#dbe8ef,#53616b 40%,#10171c);
+      transform:rotate(3deg);
+      box-shadow:0 35px 80px rgba(0,0,0,.58),0 0 50px rgba(27,222,193,.13)
+    }
+    .screen{
+      min-height:510px;border-radius:30px;overflow:hidden;
+      background:linear-gradient(180deg,#071b2c,#06121e);
+      border:1px solid rgba(255,255,255,.13)
+    }
+    .screen-head{padding:20px 17px 14px;background:#0b2940}
+    .tg{display:flex;align-items:center;gap:11px}
+    .tg-icon{width:42px;height:42px;border-radius:50%;background:#229ed9;display:grid;place-items:center;font-size:21px}
+    .tg strong{display:block}.tg small{color:#91aabd}
+    .pin{margin:14px 13px;padding:12px;border-radius:14px;background:#102f46;color:#9feeff;font-size:12px;font-weight:800}
+    .msg{margin:11px 13px;padding:14px;border-radius:17px;background:#0b2134;border:1px solid rgba(255,255,255,.06)}
+    .msg b{display:block;margin-bottom:6px}.msg p{margin:0;color:#a8bac6;font-size:12px;line-height:1.45}
+    .float{
+      position:absolute;padding:10px 14px;border-radius:999px;
+      background:rgba(8,24,37,.9);border:1px solid rgba(44,220,194,.35);
+      font-size:12px;font-weight:800;box-shadow:var(--shadow)
+    }
+    .float.one{top:45px;right:0}.float.two{bottom:55px;left:0}
+
+    section{padding:38px 0}
+    .section-title{text-align:center;font-size:30px;letter-spacing:-1px;margin:0 0 10px}
+    .section-sub{text-align:center;color:var(--muted);max-width:620px;margin:0 auto 24px;line-height:1.55}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .card{
+      padding:20px;border-radius:20px;background:linear-gradient(180deg,rgba(13,40,57,.86),rgba(7,26,39,.86));
+      border:1px solid var(--border);min-height:185px
+    }
+    .icon{font-size:28px;margin-bottom:14px}
+    .card h3{margin:0 0 8px;font-size:16px}.card p{margin:0;color:#9eb2bf;line-height:1.45;font-size:13px}
+    .why{
+      display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:center;
+      padding:26px;border:1px solid rgba(53,221,199,.2);border-radius:28px;
+      background:linear-gradient(135deg,rgba(15,67,77,.42),rgba(6,25,39,.76))
+    }
+    .checks{display:grid;gap:13px;margin-top:18px}
+    .check{display:flex;gap:10px;align-items:flex-start;color:#dcebf1}
+    .check i{font-style:normal;width:24px;height:24px;border-radius:50%;display:grid;place-items:center;background:#25e8b4;color:#05231c;font-size:13px;font-weight:900;flex:0 0 24px}
+    .visual{
+      min-height:260px;border-radius:22px;
+      background:radial-gradient(circle at 50% 40%,rgba(36,234,187,.28),transparent 35%),linear-gradient(145deg,#0b3344,#061622);
+      display:grid;place-items:center;border:1px solid rgba(53,221,199,.2)
+    }
+    .visual-phone{font-size:75px;filter:drop-shadow(0 20px 25px rgba(0,0,0,.4))}
+    .bottom-cta{padding:48px 0 64px;text-align:center}
+    .bottom-cta h2{font-size:36px;letter-spacing:-1.5px;margin:0 0 10px}
+    .bottom-cta p{color:var(--muted);margin:0 auto 20px;max-width:580px}
+    footer{padding:22px 0 32px;border-top:1px solid rgba(255,255,255,.07);color:#718794;text-align:center;font-size:11px;line-height:1.6}
+    footer strong{color:#a9c0cc}
+    .sticky-cta{
+      display:none;position:fixed;bottom:0;left:0;right:0;z-index:30;
+      padding:10px 12px calc(10px + env(safe-area-inset-bottom));
+      background:rgba(2,14,23,.88);backdrop-filter:blur(14px);
+      border-top:1px solid rgba(255,255,255,.08)
+    }
+    @media(max-width:760px){
+      .wrap{width:min(100% - 22px,560px)}
+      .nav{height:58px}
+      .brand span{font-size:18px}
+      .hero{padding-top:26px}
+      .hero-grid{grid-template-columns:1fr;gap:20px}
+      h1{font-size:48px;letter-spacing:-2.3px}
+      .hero p{font-size:16px}
+      .mock{min-height:430px}
+      .phone{width:275px}.screen{min-height:420px}
+      .float.one{right:2px;top:20px}.float.two{left:0;bottom:25px}
+      .cards{grid-template-columns:1fr 1fr}
+      .card{min-height:165px;padding:16px}
+      .why{grid-template-columns:1fr;padding:20px}
+      .visual{min-height:180px}
+      .bottom-cta{padding-bottom:105px}
+      .sticky-cta{display:block}
+      .sticky-cta .cta{min-height:52px}
+    }
+    @media(max-width:390px){
+      h1{font-size:43px}.cards{grid-template-columns:1fr}
+      .card{min-height:auto}.mini-cta{padding:8px 11px;font-size:11px}
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="HoyoPay home">
+        <span class="brand-mark">H</span><span>HOYOPAY</span>
+      </a>
+      <a class="mini-cta" href="https://t.me/hoyopay412" target="_blank" rel="noopener">Join Telegram →</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow">✦ HOYOPAY TELEGRAM COMMUNITY</span>
+          <h1>JOIN THE <span class="grad">HOYOPAY</span> COMMUNITY</h1>
+          <p>Get the latest updates, offers, member benefits and earning-related information directly on <strong>Telegram</strong>.</p>
+
+          <div class="offer">
+            <small>Member opportunity</small>
+            <b>Up to 5%</b> <span>earning opportunity*</span>
+          </div>
+
+          <a class="cta tg-link" href="https://t.me/hoyopay412" target="_blank" rel="noopener">
+            ✈️ JOIN TELEGRAM CHANNEL <span>→</span>
+          </a>
+          <div class="subnote">Free to join • Instant access • No registration required</div>
+        </div>
+
+        <div class="mock" aria-hidden="true">
+          <div class="float one">🔔 Latest updates</div>
+          <div class="phone">
+            <div class="screen">
+              <div class="screen-head">
+                <div class="tg">
+                  <div class="tg-icon">➤</div>
+                  <div><strong>HoyoPay Official</strong><small>Telegram Community</small></div>
+                </div>
+              </div>
+              <div class="pin">📌 Pinned message<br>Latest offers & updates</div>
+              <div class="msg"><b>🎁 New Member Offer</b><p>Check the latest member opportunity and applicable terms.</p></div>
+              <div class="msg"><b>📢 Important Update</b><p>New features, benefits and announcements are shared here.</p></div>
+              <div class="msg"><b>🎉 Community Benefits</b><p>Stay connected with HoyoPay updates and offers.</p></div>
+            </div>
+          </div>
+          <div class="float two">⚡ Instant access</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2 class="section-title">Why join HoyoPay?</h2>
+        <p class="section-sub">One place for the latest HoyoPay information and community updates.</p>
+        <div class="cards">
+          <article class="card"><div class="icon">💰</div><h3>Earning Opportunities</h3><p>See the latest opportunities and program updates shared by HoyoPay.</p></article>
+          <article class="card"><div class="icon">📢</div><h3>Instant Announcements</h3><p>Get new offers, features and important updates in one place.</p></article>
+          <article class="card"><div class="icon">🎁</div><h3>Member Benefits</h3><p>Stay connected to member offers and community information.</p></article>
+          <article class="card"><div class="icon">🛡️</div><h3>Simple & Transparent</h3><p>Read the available details and terms before deciding to participate.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap why">
+        <div>
+          <h2 class="section-title" style="text-align:left;margin-bottom:0">Everything in Telegram</h2>
+          <div class="checks">
+            <div class="check"><i>✓</i><span>Latest HoyoPay updates</span></div>
+            <div class="check"><i>✓</i><span>Offers & announcements</span></div>
+            <div class="check"><i>✓</i><span>Member community information</span></div>
+            <div class="check"><i>✓</i><span>Easy access from mobile</span></div>
+            <div class="check"><i>✓</i><span>Free to join</span></div>
+          </div>
+        </div>
+        <div class="visual"><div class="visual-phone">📱 ✈️</div></div>
+      </div>
+    </section>
+
+    <section class="bottom-cta">
+      <div class="wrap">
+        <h2>Ready to stay updated?</h2>
+        <p>Join the HoyoPay Telegram community and check the latest information, offers and applicable terms.</p>
+        <a class="cta tg-link" href="https://t.me/hoyopay412" target="_blank" rel="noopener">✈️ JOIN HOYOPAY ON TELEGRAM →</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="sticky-cta">
+    <a class="cta tg-link" href="https://t.me/hoyopay412" target="_blank" rel="noopener">✈️ JOIN TELEGRAM</a>
+  </div>
+
+  <footer>
+    <div class="wrap">
+      <strong>HoyoPay</strong> • Telegram Community<br>
+      *Earning opportunity, eligibility and conditions depend on the applicable program terms. Earnings are not guaranteed unless explicitly stated in those terms. Please review the information provided in the Telegram channel before participating.
+    </div>
+  </footer>
+
+  <script>
+    // Optional Meta Pixel click tracking.
+    // After adding your real Pixel base code above, this records Telegram CTA clicks.
+    document.querySelectorAll('.tg-link').forEach(function(link){
+      link.addEventListener('click', function(){
+        if (typeof fbq === 'function') {
+          fbq('track', 'Lead', {content_name: 'HoyoPay Telegram Join'});
+        }
+      });
+    });
+  </script>
+</body>
+</html>
